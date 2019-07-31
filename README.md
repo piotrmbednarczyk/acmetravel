@@ -59,6 +59,8 @@ Regarding technical design, I decided to use Spring Boot starters pack together 
 
 It is recommended to build project from command line. Building from IDE may require installing Lombok plugin.
 
+* Please first update correct login and password for the database access in /src/main/resources/application.properties file! Both were removed for security reasones.
+
 Go to project directory. Usual maven build command should work fine:
 
 ```
